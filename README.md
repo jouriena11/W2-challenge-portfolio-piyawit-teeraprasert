@@ -8,6 +8,8 @@ In week 2 challenge, we're assigned to create an online portfolio page using PHP
 - margins
 - @media screen
 
+*Note:* Please only use Chrome Inspect Elements to test screen responsiveness of my site. Resizing browser manually doesn't yield the same responsive display result.
+
 ## **URLs**
 - [Deployed Application URL](https://jouriena11.github.io/W2-challenge-portfolio-piyawit-teeraprasert/)
 - [GitHub Repository URL](https://github.com/jouriena11/W2-challenge-portfolio-piyawit-teeraprasert)

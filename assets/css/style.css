@@ -36,12 +36,9 @@ h6 {
 }
 
 p {
-    flex-wrap: wrap;
     font-size: 1rem;
     line-height: 1.5;
 }
-
-/* Link */
 
 a {
     text-decoration: none;
@@ -86,7 +83,6 @@ nav div img {
 /* Header */
 
 .header-text {
-    position: relative;
     padding: 60px;
     text-align: center;
 }
@@ -101,7 +97,7 @@ section {
 }
 
 .section-left {
-    flex: 10%;
+    flex: 15%;
     padding: 10px 20px;
     margin: 30px;
     border-right: 3px solid #000;
@@ -109,9 +105,9 @@ section {
 }
 
 .section-right {    
-    flex: 80%;
-    padding: 20px 20px 0px 0px;
     display: flex;
+    flex: 1 0 80%;
+    padding: 20px 20px 0px 10px;
     margin: 10px;
 }
 
@@ -122,11 +118,11 @@ section {
 }
 
 .section-right-work {
-    flex: 80%;
+    flex: 85%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px 20px 0px 0px;
+    padding: 20px 20px 0px 10px;
     margin: 10px;
 }
 
@@ -189,15 +185,15 @@ footer {
 
 /* Responsive Screen */
 
-@media screen and (max-width: 1150px) {
-    .img-box {
-        margin-bottom: 10px;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     .img-box {
         height: 50vh;
+    }
+    .section-right {
+        margin: 20px 0px;
+    }
+    .section-right-work {
+        margin: 20px 0px;
     }
 }
 
@@ -245,6 +241,7 @@ footer {
 
     .section-right {
         flex-wrap: wrap;
+        margin: 15px;
     }
 
     .profile-image {
